@@ -1,25 +1,18 @@
 \documentclass[12pt]{article}
 \include{packages}
 \usepackage{hyperref}
-
-\date{20 juin, 2025}
-\title{\textbf{RAPPORT D’ACTIVITÉS}}
-\author{
-    Eden BOHBOT \\
-    \\
-    Entreprise: Ecovair
-    \vspace{2mm} \\
-    Tuteur enseignant : SIKORA Florian \\
-    Maitre d’apprentissage : MIMOUN Avi \\
-}
+\usepackage{graphicx}
+\usepackage{titlesec}
 
 \begin{document}
 
-\begin{center}
-    \noindent
+\begin{titlepage}
+    \centering
+
+    % Logos en haut
     \begin{minipage}[t]{0.5\textwidth}
-        \vspace{1.5cm} % espace pour descendre Ecovair
-        \hspace{-1cm}  % décalage vers la gauche
+        \vspace{1.5cm}
+        \hspace{-1cm}
         \includegraphics[height=1.2cm]{ecovair.png}
     \end{minipage}%
     \begin{minipage}[t]{0.5\textwidth}
@@ -27,14 +20,32 @@
         \includegraphics[height=1.2cm]{dauphine.png}
     \end{minipage}
 
+    \vspace{2.5cm}
 
-\end{center}
+    {\Huge \textbf{RAPPORT D’ACTIVITÉS} \par}
+    \vspace{1cm}
 
-\vspace{2cm}
-{\let\newpage\relax\vspace{-3em}\maketitle}
+    {\Large Eden BOHBOT \par}
+    \vspace{0.5cm}
+    {\large Entreprise : Ecovair \par}
+    \vspace{0.3cm}
+    {\large Tuteur enseignant : SIKORA Florian \par}
+    {\large Maître d’apprentissage : MIMOUN Avi \par}
+
+    \vspace{1.5cm}
+
+    {\large \textbf{20 juin 2025} \par}
+
+    \vspace{1cm}
+
+    \begin{minipage}{0.95\textwidth}
+        \small
+        \textbf{Résumé –}
+Lors de mon alternance chez Ecovair, j’ai contribué à la digitalisation des processus internes en maintenant le site web, en développant un portail pour les commerciaux et en créant des tableaux de bord avec Zoho Analytics. J’ai également travaillé sur une solution d’échange avec les clients l’IA. Ces missions ont renforcé mes compétences techniques, mon autonomie, et ont confirmé mon choix de poursuivre en Master MIAGE.    \end{minipage}
+
+\end{titlepage}
 
 \thispagestyle{empty}
-
 \pagenumbering{roman}
 
 \titleformat*{\section}{\LARGE\bfseries}
