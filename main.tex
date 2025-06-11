@@ -1,5 +1,6 @@
 \documentclass[12pt]{article}
 \include{packages}
+\usepackage{hyperref}
 
 \date{20 juin, 2025}
 \title{\textbf{RAPPORT D’ACTIVITÉS}}
@@ -15,13 +16,21 @@
 \begin{document}
 
 \begin{center}
-    \includegraphics[height=1.5cm]{dauphine.png}
-    \hspace{2cm}
-    \includegraphics[height=1.5cm]{ecovair.png}
-    \vspace{2mm}
+    \noindent
+    \begin{minipage}[t]{0.5\textwidth}
+        \vspace{1.5cm} % espace pour descendre Ecovair
+        \hspace{-1cm}  % décalage vers la gauche
+        \includegraphics[height=1.2cm]{ecovair.png}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\textwidth}
+        \raggedleft
+        \includegraphics[height=1.2cm]{dauphine.png}
+    \end{minipage}
+
+
 \end{center}
 
-
+\vspace{2cm}
 {\let\newpage\relax\vspace{-3em}\maketitle}
 
 \thispagestyle{empty}
